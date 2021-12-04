@@ -54,7 +54,7 @@ const Page = ({
 
 Page.propTypes = {
   isLight: PropTypes.bool.isRequired,
-  image: PropTypes.bool.isRequired,
+  // image: PropTypes.bool.isRequired,
   containerStyles: ViewPropTypes.style,
   imageContainerStyles: ViewPropTypes.style,
   title: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,

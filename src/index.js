@@ -231,7 +231,7 @@ Onboarding.propTypes = {
   pages: PropTypes.arrayOf(
     PropTypes.shape({
       backgroundColor: PropTypes.string.isRequired,
-      image: PropTypes.bool.isRequired,
+      // image: PropTypes.bool.isRequired,
       title: PropTypes.oneOfType([
         PropTypes.string,
         PropTypes.element,

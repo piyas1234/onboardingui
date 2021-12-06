@@ -199,7 +199,7 @@ class Onboarding extends Component {
         />
         {showPagination && (
           <SafeAreaView style={bottomBarHighlight ? styles.overlay : {}}>
-            <Pagination
+             <Pagination
               isLight={isLight}
               bottomBarHeight={bottomBarHeight}
               bottomBarColor={bottomBarColor}
@@ -299,6 +299,7 @@ Onboarding.defaultProps = {
 const styles = {
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.1)',
+    alignItems: 'center'
   },
 };
 

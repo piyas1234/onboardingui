@@ -22,6 +22,8 @@ const styles = {
     flex: 0,
     flexDirection: I18nManager.isRTL && Platform.OS === 'ios' ? 'row-reverse' : 'row',
     alignItems: 'center',
+    alignSelf:   'center',
+    
   },
 };
 

@@ -126,8 +126,7 @@ const styles = {
     paddingHorizontal: 0,
     position: 'absolute',
     bottom:100,
-    left:'30%',
-    right:'30%'
+   
   
   },
   buttonLeft: {
